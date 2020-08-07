@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>CIIT UK Standup</title>
+    <title>Onboarding Standup</title>
     <style type="text/css">
     body {
       background-image: url('bg.jpg');
@@ -79,8 +79,8 @@
 
 </head>
 <body>
+    <button class="button" onclick="location.href='index.html'">CIIT UK Standup</button>
     <button class="button" onclick="location.href='grad.html'">Grad Standup</button>
-    <button class="button" onclick="location.href='onboarding.html'">Onboarding Standup</button>
     <div id="chart"></div>
     <div id="question"><h1></h1></div>
 
@@ -96,17 +96,14 @@
             oldpick = [],
             color = d3.scale.category20();
         var data = [
-                    {"label":"Sipho",  "value":1,  "question":"Sipho, What is done? Plan Today? Any Impediment?"},
-                    {"label":"Phumlani",  "value":1,  "question":"Phumlani, What is done? Plan Today? Any Impediment?"},
-                    {"label":"Kelley",  "value":1,  "question":"Kelley, What is done? Plan Today? Any Impediment?"},
-                    {"label":"Juan",  "value":1,  "question":"Juan, What is done? Plan Today? Any Impediment?"},
-                    {"label":"Thami",  "value":1,  "question":"Thami, What is done? Plan Today? Any Impediment?"},
-                    {"label":"Sanele",  "value":1,  "question":"Sanele, What is done? Plan Today? Any Impediment?"},
-                    {"label":"Tebogo",  "value":1,  "question":"Tebogo, What is done? Plan Today? Any Impediment?"},
-                    {"label":"Barry",  "value":1,  "question":"Barry, What is done? Plan Today? Any Impediment?"},
-                    {"label":"Levi",  "value":1,  "question":"Levi, What is done? Plan Today? Any Impediment?"},
-                    {"label":"Zirk", "value":1, "question":"Zirk, What is done? Plan Today? Any Impediment?"},
-                    {"label":"Punya", "value":1, "question":"Punya, What is done? Plan Today? Any Impediment?"}
+                    {"label":"Johan",  "value":1,  "question":"Johan, What is done? Plan Today? Any Impediment?"},
+                    {"label":"Chris",  "value":1,  "question":"Chris, What is done? Plan Today? Any Impediment?"},
+                    {"label":"Duncan",  "value":1,  "question":"Duncan, What is done? Plan Today? Any Impediment?"},
+                    {"label":"Ephraim",  "value":1,  "question":"Ephraim, What is done? Plan Today? Any Impediment?"},
+                    {"label":"Punya",  "value":1,  "question":"Punya, What is done? Plan Today? Any Impediment?"},
+                    {"label":"Luthando",  "value":1,  "question":"Luthando, What is done? Plan Today? Any Impediment?"},
+                    {"label":"Itu",  "value":1,  "question":"Itu, What is done? Plan Today? Any Impediment?"},
+                    {"label":"Brent",  "value":1,  "question":"Brent, What is done? Plan Today? Any Impediment?"}
         ];
         var svg = d3.select('#chart')
             .append("svg")
